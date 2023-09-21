@@ -6,10 +6,10 @@ CREATE TABLE `Movie` (
   `mID` int(11) NOT NULL,
   `title` varchar(256) NOT NULL,
   `year` year(4) NOT NULL,
-  `directory` varchar(256) DEFAULT NULL
+  `director` varchar(256) DEFAULT NULL
 );
 
-INSERT INTO `Movie` (`mID`, `title`, `year`, `directory`) VALUES
+INSERT INTO `Movie` (`mID`, `title`, `year`, `director`) VALUES
 (101, 'Gone with the Wind', 1939, 'Victor Fleming'),
 (102, 'Star Wars', 1977, 'George Lucas'),
 (103, 'The Sound of Music', 1965, 'Robert Wise'),
